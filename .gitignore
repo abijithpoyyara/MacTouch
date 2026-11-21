@@ -1,0 +1,43 @@
+# macOS metadata
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE and machine-local state
+.idea/
+.vscode/
+*.iml
+**/local.properties
+
+# Swift Package Manager and built app products
+.build/
+desktop/build/
+desktop/.swiftpm/
+
+# Flutter generated files
+mobile/.dart_tool/
+mobile/build/
+mobile/.flutter-plugins
+mobile/.flutter-plugins-dependencies
+# The Android platform folder is recreated and patched by mobile/scripts/bootstrap.sh.
+mobile/android/
+mobile/.widget_preview/
+mobile/.metadata
+
+# Local backups and editor recovery copies (kept on disk)
+backups/
+*.bak
+
+# Secrets and signing material
+.env
+.env.*
+!.env.example
+key.properties
+**/key.properties
+**/*.jks
+**/*.keystore
+**/*.p12
+**/*.mobileprovision
+**/*.provisionprofile
+**/GoogleService-Info.plist
+**/google-services.json
